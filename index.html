@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bryan Lee's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/bryan-lee.jpg" alt="Bryan Lee" class="profile-img" />
+            <h1>Bryan Lee</h1>
+            <p>
+                I'm a passionate software engineer with a strong focus on game development, web technologies, and backend systems. Holding a Bachelor's degree in Computer Science from the University of Utah (2019), I've spent the last five years honing my skills across various industries.
+            </p>
+            <p>
+                Throughout my career, I've worked on immersive VR experiences, performance-critical backend systems, and dynamic web apps. I love solving tough engineering problems with creativity and clean code.
+            </p>
+            <nav>
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#additional">Additional Info</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="skills" class="section">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-card">
+            <div class="icons">
+                <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
+                    <img src="images/csharp-icon.png" alt="C#" />
+                </a>
+                <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
+                    <img src="images/cpp-icon.png" alt="C++" />
+                </a>
+                <a href="https://www.python.org/" target="_blank">
+                    <img src="images/python-icon.png" alt="Python" />
+                </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                    <img src="images/js-icon.png" alt="JavaScript" />
+                </a>
+                <a href="https://unity.com/" target="_blank">
+                    <img src="images/unity-icon.png" alt="Unity" />
+                </a>
+                <a href="https://developer.oculus.com/" target="_blank">
+                    <img src="images/oculus-icon.png" alt="Oculus" />
+                </a>
+                <a href="https://www.vive.com/us/" target="_blank">
+                    <img src="images/vive-icon.png" alt="Vive" />
+                </a>
+                <a href="https://reactjs.org/" target="_blank">
+                    <img src="images/react-icon.png" alt="React.js" />
+                </a>
+                <a href="https://www.sqlshack.com/" target="_blank">
+                    <img src="images/sql-icon.png" alt="SQL" />
+                </a>
+                <a href="https://git-scm.com/" target="_blank">
+                    <img src="images/git-icon.png" alt="Git" />
+                </a>
+                <a href="https://www.jenkins.io/" target="_blank">
+                    <img src="images/jenkins-icon.png" alt="Jenkins" />
+                </a>
+                <a href="https://azure.microsoft.com/en-us/" target="_blank">
+                    <img src="images/azure-icon.png" alt="Azure" />
+                </a>
+                <a href="https://aws.amazon.com/" target="_blank">
+                    <img src="images/aws-icon.png" alt="AWS" />
+                </a>
+                <a href="https://redis.io/" target="_blank">
+                    <img src="images/redis-icon.png" alt="Redis" />
+                </a>
+                <a href="https://developers.google.com/apps-script" target="_blank">
+                    <img src="images/google-app-script-icon.png" alt="Google Apps Script" />
+                </a>
+                <a href="https://mediapipe.dev/" target="_blank">
+                    <img src="images/mediapipe-icon.png" alt="MediaPipe" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <div class="job">
+            <h3>Senior Software Engineer - Futurewei Technologies</h3>
+            <p><strong>June 2023 - May 2024 | Austin, Texas</strong></p>
+            <ul>
+                <li>Architected a high-performance C++ UDP networking library for seamless communication.</li>
+                <li>Mentored 5 interns, leading sprints and managing deliverables.</li>
+                <li>Created Unity frontend with custom debugging tools for avatar rendering and scene visualization.</li>
+                <li>Integrated MediaPipe for avatar skeleton generation and joint rotation calculations.</li>
+                <li>Set up Jenkins, Gitea, FTP server, and YouTrack for DevOps; touched on ACR, AKS, and Azure B2C.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Software Engineer - Captain.tv</h3>
+            <p><strong>May 2022 - March 2023 | Remote</strong></p>
+            <ul>
+                <li>Optimized Unity rendering using Material Property Blocks (frame times: ~200ms → ~13ms).</li>
+                <li>Used Datadog and Papertrail for live monitoring and uptime improvements.</li>
+                <li>Maintained Unity/React.js frontends and .NET Core backend (Redis, DynamoDB, OpenSearch).</li>
+            </ul>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fa0m2vMpiBU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="job">
+            <h3>Software Engineer - Win Reality LLC</h3>
+            <p><strong>May 2020 - April 2022 | Austin, Texas</strong></p>
+            <ul>
+                <li>Implemented Oculus event logging to diagnose field issues.</li>
+                <li>Engineered real-world bat tracking and Guardian mesh safety triggers using the Vive puck.</li>
+                <li>Designed and built UI pagination for thousands of virtual pitchers.</li>
+            </ul>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1wjIdFWOUNI" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="job">
+            <h3>Quality Assurance Engineer - Qualitest</h3>
+            <p><strong>December 2019 - May 2020 | Austin, Texas</strong></p>
+            <ul>
+                <li>Provided QA support for Google’s search data, validating accuracy and integrity of search results.</li>
+                <li>Verified the correctness of structured content such as movie and show listings and their associated links.</li>
+                <li>Built automation scripts using Google Apps Script to streamline data validation and reporting workflows.</li>
+                <li>Improved QA efficiency by reducing manual review and increasing consistency of checks.</li>
+                <li>Worked collaboratively with cross-functional Google teams to report issues and ensure data compliance.</li>
+            </ul>
+        </div>
+
+    <div class="job">
+        <h3>Unity Engineer - Octagon</h3>
+        <p><strong>September 2018 – December 2019 | Salt Lake City, Utah</strong></p>
+        
+        <!-- Project 1: Into The Dark -->
+        <h4 style="margin-top: 20px; margin-bottom: -10px;">Into The Dark</h4>
+        <ul>
+            <li>Developed full AI system using factory pattern.</li>
+            <li>Integrated VR haptic vest interactions via external API.</li>
+            <li>Built network synchronization with Unet for VR space alignment.</li>
+            <li>Created procedural IK animations for dynamic VR feedback.</li>
+        </ul>
+        <div class="video" style="margin-top: -20px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rkEfgCoOpUw" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Project 2: OnStar Kiosk App -->
+        <h4 style="margin-top: 40px; margin-bottom: -10px">OnStar Kiosk App for Icon Interactive</h4>
+        <ul>
+            <li>Developed an interactive kiosk app in Unity to showcase OnStar features to users.</li>
+            <li>Designed a user-friendly interface that guided customers through OnStar's offerings and services.</li>
+            <li>Integrated interactive elements for a fully immersive experience that highlighted key OnStar features.</li>
+            <li>Optimized performance for smooth interaction on kiosk hardware which consisted of multiple platforms (PC, Mac, iPad), ensuring responsive controls and fluid animations.</li>
+        </ul>
+        <div class="video" style="margin-top: -20px">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HY01IsLR-mo" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    </section>
+
+    <section id="additional" class="section">
+        <h2>Additional Info</h2>
+        <div class="job">
+            <h3>Education</h3>
+            <p><strong>The University of Utah</strong></p>
+            <div class="icons">
+                <img src="images/university-of-utah-logo.png" alt="University of Utah Logo" class="university-logo" />
+            </div>
+            <p><strong>Bachelor of Science in Computer Science - Emphasis on Video Games</strong></p>
+            <p>2015 - 2019</p>
+        </div>
+
+        <div class="job">
+            <h3>Honors & Awards</h3>
+            <p><strong>Get Seeded 2018 – The University of Utah</strong></p>
+            <div class="icons">
+                <img src="images/get-seeded-logo.jpg" alt="Get Seeded Logo" class="get-seeded-logo" />
+            </div>
+            <p>Received $2500 in funding for the VR project <em>Into The Dark</em>.</p>
+        </div>
+
+        <div class="job">
+            <h3 style="margin-bottom: 10px">Languages Spoken</h3>
+            <ul>
+                <li>English (Fluent)</li>
+                <li>Malay (Fluent)</li>
+                <li>Mandarin (Intermediate)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="portfolio-item">
+            <h3>Fully-immersive VR Shooter Demo</h3>
+            <p>In this project, we developed a fully immersive VR shooter demo that used state-of-the-art motion capture technology to deliver a highly interactive experience. The setup involved full body tracking suits that were equipped with tracking cameras to capture the user's movements. This data was fed into Unity, where we controlled digital avatars that mimicked our real-world actions.</p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HB3yg_x1wb8" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <h3>Killer Radishes</h3>
+            <p style="margin-bottom: 20px;">In Killer Radishes, you are thrown into an action-packed arena where you face off against waves of angry radishes. Armed with a gun and two powerful shots, your mission is to survive the relentless onslaught of these vegetable enemies, all while navigating the chaotic battlefield. Made in 2 days for Week 106 of Weekly Game Jam.</p>
+            <a href="https://edupo.itch.io/killer-radishes" target="_blank">
+                <img width="100%" height="450px" src="images/killer-radishes.png" alt="Get Seeded Logo" class="get-seeded-logo" />
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <h2>Contact</h2>
+        <div class="contact-card">
+            <p><strong>Email:</strong> <a href="mailto:bryle95@hotmail.com">bryle95@hotmail.com</a></p>
+            <p><strong>Website:</strong> <a href="http://www.bryanlee.tech" target="_blank">www.bryanlee.tech</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/hexsauce" target="_blank">github.com/hexsauce</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/bryan-lee95" target="_blank">linkedin.com/in/bryan-lee95</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bryan Lee | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,230 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+}
+
+header .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: -50px;
+}
+
+section h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.icons img {
+    width: 60px;
+    margin: 15px;
+}
+
+.job, .portfolio-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    text-align: left;
+}
+
+.job h3, .portfolio-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.job ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.video iframe {
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for Skills Section Card */
+.skills-card {
+    background-color: #fff; /* White background */
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills-card .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-card .icons img {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for icons */
+.skills-card .icons img:hover {
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+}
+
+/* Styles for Contact Section */
+.contact-section {
+    display: block;  /* Use block to align content to the left */
+    width: 100%;
+    max-width: 1000px;  /* Align with other sections' width */
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.contact-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;  /* Adds space between the header and the contact card */
+    text-align: left;  /* Left-align the header */
+    color: #222;
+}
+
+.contact-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: left;  /* Left-align the text in the card */
+}
+
+.contact-card p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.contact-card a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+/* Portfolio Item Links */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.university-logo {
+    width: 100px; /* Adjust as necessary */
+    height: auto;
+    margin-top: 15px;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
